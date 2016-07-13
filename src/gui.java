@@ -18,7 +18,7 @@ public class gui extends javax.swing.JFrame {
      */
     public gui() {
         initComponents();
-        radio = new logica();
+        Radio radio = new logica();
         df = new DecimalFormat("####0.00");
     }
 
